@@ -270,9 +270,12 @@ a.button:hover {
 
 .about-page .page-banner,
 .tournaments-page .page-banner,
-.contact-page .page-banner {
-  padding: 3rem 0;
-  min-height: 30vh;
+.contact-page .page-banner,
+.events-page .page-banner,
+.members-page .page-banner,
+.faq-page .page-banner {
+  padding: 2.7rem 0 2.2rem 0;
+  min-height: 10vh;
 }
 
 .home-page .page-banner {
@@ -589,7 +592,7 @@ textarea:focus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 0.5rem;
 }
 
 .member-card {
