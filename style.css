@@ -1088,3 +1088,13 @@ body.light-theme .faq-item p {
     width: 100%;
   }
 }
+
+.section-header {
+  text-align: center;
+}
+
+.section-header p {
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
